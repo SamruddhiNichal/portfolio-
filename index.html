@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Curriculum Vitae Website</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+
+    <div class="user">
+        <img src="images/sam.jpg" alt="">
+        <h3 class="name">Samruddhi Nichal</h3>
+        <p class="post">Full Stack Developer</p>
+    </div>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- content section starts  -->
+
+<div class="container">
+
+    <section class="home" id="home">
+
+        <h3>Hiii there...</h3>
+        <br/>
+        <h3 class="name">My name is <span>Samruddhi Nichal</span></h3>
+        <br/>
+        <h3 class="post">I am a <span class="typing-text"></span></span></h3>
+        <br/>
+        <a href="#contact"><button class="btn">Hire me</button></a>
+
+        <div class="share">
+            <a href="https://github.com/SamruddhiNichal" class="fab fa-github-square"></a>
+            <a href="https://www.linkedin.com/in/samruddhi-nichal-b412a6214" class="fab fa-linkedin"></a>
+        </div>
+
+    </section>
+
+    <!-- about section  -->
+
+    <section class="skills" id="skills">
+
+        <h1 class="heading">Skills</h1>
+
+        <div  class="skills" >
+            <div class="progress">
+                <h3>Java <span>95%</span></h3>
+                <div class="bar"><span></span></div>
+            </div>
+            <div class="progress">
+                <h3>Spring Boot<span>85%</span></h3>
+                <div class="bar"><span></span></div>
+            </div>
+            <div class="progress">
+                <h3>JavaScript <span>80%</span></h3>
+                <div class="bar"><span></span></div>
+            </div>
+            <div class="progress">
+                <h3>ReactJS <span>75%</span></h3>
+                <div class="bar"><span></span></div>
+            </div>
+            <div class="progress">
+                <h3>HTML <span>80%</span></h3>
+                <div class="bar"><span></span></div>
+            </div>
+            <div class="progress">
+                <h3>CSS <span>80%</span></h3>
+                <div class="bar"><span></span></div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- education section  -->
+
+    <section class="education" id="education">
+
+        <h1 class="heading">My Education</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="year">2014</div>
+                <h3>Secondary School Certificate</h3>
+                <br/>
+                <p><b style="font-size: medium;">School Name : </b> Shri Shivaji High School , Akot</p>
+                <p><b style="font-size: medium;">Percentage :</b> 86.20%</p>
+            </div>
+
+            <div class="box">
+                <div class="year">2016</div>
+                <h3>Higher Secondary Certificate</h3>
+                <br/>
+                <p> <b style="font-size: medium;">College Name : </b> Manibai Gujarthi High School And Junior College , Amravati</p>
+                <p><b style="font-size: medium;">Percentage :</b>62%</p>
+            </div>
+
+            <div class="box">
+                <div class="year">2019</div>
+                <h3>Bachelor Of Science</h3>
+                <br/>
+                <p><b style="font-size: medium;">College Name : </b> Shri Shivaji Science College,Amravati</p>
+                <p><b style="font-size: medium;">Percentage : </b> 59%</p>
+            </div>
+
+            <div class="box">
+                <div class="year">2021</div>
+                <h3>Full Stack Developer</h3>
+                <br/>
+                <p><b style="font-size: medium;">Insititute Name : </b>CodeKul - The Gurukul for Coders , Pune  </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- project section  -->
+
+    <section class="project" id="project">
+
+        <h1 class="heading">My Project</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <p><b>Project :  </b><mark>Task Management</mark> </p>
+                <br/>
+                <p><b>Technology :</b> Java , Javascript , Spring Boot , React JS , HTML , CSS</p>
+                <br/>
+                <p><b>Project Summary : </b> Worked on Task Management module using Spring Boot , 
+                    React JS and for database we used MySQL</p>
+            </div>
+
+            <div class="box">
+                <p><b>Project :  </b><mark>Hotel Booking</mark> </p>
+                <br/>
+                <p><b>Technology :</b>  Javascript ,  HTML , CSS</p>
+                <br/>
+                <p><b>Project Summary : </b> The main Objective of the Hotel Booking is manages all 
+                    the information about booking</p>
+            </div>
+
+            <div class="box">
+                <p><b>Project :  </b><mark>My Curriculum Vitae Website</mark></p>
+                <br/>
+                <p><b>Technology :</b>  Javascript ,  HTML , CSS</p>
+                <br/>
+                <p><b>Project Summary : </b> The main purpose  of My Curriculum Vitae Website is 
+                    designed to summarize all my academic,professional and personal information. </p>
+            </div>
+
+    </section>
+
+    <!-- contact section  -->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading">Contact Me</h1>
+
+        <div class="row">
+
+            <form onSubmit="message">
+                <input type="text" class="box" value="" placeholder="Name">
+                <input type="text" class="box" value="" placeholder="Phone">
+                <input type="email" class="box" value="" placeholder="Email">
+                <textarea name="" id="" cols="30" rows="10" class="box message" aria-valuetext="" placeholder="Message"></textarea>
+                <input type="submit" value="Message" class="btn">
+            </form>
+
+            <div class="content">
+                <div class="icons">
+                    <h3><i class="fas fa-map-marker-alt"></i> Address </h3>
+                    <p>Pune , Maharashtra </p>
+                </div>
+                <div class="icons">
+                    <h3><i class="fas fa-envelope"></i> Email </h3>
+                    <p style="text-transform: lowercase;">nichal.sam@gmail.com</p>
+                </div>
+                <div class="icons">
+                    <h3><i class="fas fa-phone"></i> Phone </h3>
+                    <p>+91 9284762513</p>
+                </div>
+                <br/>
+                <br/>
+                <div>
+                    <a class="download-btn" href="document/Sam_Resume.pdf" download="cv"><i class="fas far fa-arrow-alt-circle-down">  Download CV</i></a>
+                </div>
+            </div>
+            
+
+        </div>
+
+    </section>
+
+</div>
+
+<!-- content section ends -->
+
+<!-- theme toggler  -->
+
+<div class="theme-toggler">
+    <span style="background: linear-gradient(rgb(69, 122, 69), rgb(30, 202, 165));"></span>
+    <span style="background: linear-gradient(rgb(136, 175, 45), rgb(197, 68, 78));"></span>
+    <span style="background:linear-gradient(rgb(82, 146, 231), rgba(21, 230, 160, 0.89))"></span>
+    <span style="background:linear-gradient(rgb(243, 110, 61), rgb(235, 60, 69))"></span>
+    <span style="background:linear-gradient(#999, #111)"></span>
+</div>
+
+
+<!-- type.js cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+
+<script>
+
+    var type = new Typed('.typing-text',{
+        strings : ['full stack developer'],
+        typeSpeed: 120,
+        loop:false
+    });
+
+    let themeColor = document.querySelectorAll('.theme-toggler span');
+    themeColor.forEach(color => color.addEventListener('click', () =>{
+        let background = color.style.background;
+        document.querySelector('body').style.background = background;
+    }));
+
+    function message(){
+
+    }
+
+</script>
+
+</body>
+</html>
